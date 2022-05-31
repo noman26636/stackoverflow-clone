@@ -1,0 +1,35 @@
+.roiCart{
+    padding: 24px !important;
+    border: 1px solid rgba(255,255,255,0.1);
+    margin-right: 25px;
+    border-radius: 5px;
+}
+
+.roiCarts{
+    margin: 50px 50px;
+    display: flex;
+}
+
+.roiButton{
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #379FEF;
+    border: 1px solid #379FEF;
+    outline: none;
+    margin-top: 5px;
+}
+
+.roiCart_desc{
+  text-align: center;
+  margin: auto;
+  font-size: 1.063rem;
+  font-family: "Source Sans Pro",sans-serif;
+  color: #FFFFFF;
+}
+
+.roiCart_desc > span{
+    font-size: 1.3125rem;
+    font-family: "Roboto Slab",serif;
+    color: #0a95ff;
+}

@@ -1,0 +1,201 @@
+/* .stackCards{
+     width: 93%;
+     height: 130vh;
+     margin: auto;
+     clip-path: circle(65% at 50% 50%);
+     overflow: hidden;
+
+
+     margin-top: -100px;
+    background-color: white;
+  } */
+.stackCards {
+    border: 1px solid transparent;
+  height: 45rem;
+  margin: auto;
+  position: sticky;
+}
+
+.cards {
+  display: flex;
+  /* align-items: center; */
+  overflow: hidden;
+  
+  justify-content: center;
+  margin-top: -130px;
+
+  margin-bottom: 50px;
+}
+
+.leftCard {
+    z-index: 100;
+    width: 42%;
+    height: 50rem;
+    padding: 20px 0px;
+    border-radius: 5px !important;
+    box-shadow: 0 0 5px 2px rgba(2, 2, 2, 0.2), 0 6px 20px 0 rgba(117, 95, 95, 0.19);
+    margin-right: 30px;
+    background: linear-gradient(0deg, #fee3cd 30%, white);
+
+
+}
+
+.leftCard_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.leftCard_logo_stack {
+  width: 35%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.leftCard_globe {
+  width: 100%;
+  height: 346px;
+  object-fit: contain;
+}
+
+.bottomContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomContent > h1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 1.6975rem;
+  color: #232629;
+  margin: 0px 9px;
+  line-height: 32px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bottomContent > h2 {
+    font-size: 1.188rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  /* line-height: 25px; */
+  color: #525960;
+  text-align: center;
+  margin: 15px 45px;
+}
+
+
+.bottomContent > button {
+  text-align: center;
+  padding: 12px 38px;
+  border-radius: 4px;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  background-color: #f2740d;
+  color: white;
+  font-size: 0.9375rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+
+.pinkCart_button_stack{
+  margin: 8px auto 13px auto;
+}
+
+.rightCard {
+  z-index: 100;
+  width: 42%;
+  height: 50rem;
+
+  padding: 20px 0px;
+  border-radius: 5px !important;
+  /* box-shadow: 2px 4px 4px 0 rgba(2, 2, 2, 0.2), 0 6px 20px 0 rgba(117, 95, 95, 0.19); */
+  background: linear-gradient(0deg, #bbdefb 30%, white);
+}
+
+.headerLogo {
+  width: 25%;
+  height: 60px;
+  object-fit: contain;
+}
+
+.rightCard_image {
+  height: 346px;
+  width: 100%;
+  margin-top: 20px;
+  object-fit: contain;
+}
+
+.border_stacks{
+  flex-basis: 30.33333%;
+  border: 0.2px solid #87ceeb !important;
+  border-width: thin;
+}
+
+.rightBorder {
+  border-right: 1px solid black;
+  margin-right: 5px;
+}
+
+.rightheader {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightheader > h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.rightCard_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightCard_content > img {
+  object-fit: contain;
+}
+
+.bottomContent_right > h1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 1.6975rem;
+  color: #232629;
+  margin: 0px 43px;
+  line-height: 32px;
+  margin-top: 20px;
+  text-align: center;
+}
+.bottomContent_right{
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomContent_right > h2{
+    font-size: 1.188rem;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    /* line-height: 25px; */
+    color: #525960;
+    text-align: center;
+    margin: 15px 45px;    
+}
+
+.getStarted1{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    justify-content: center;
+    margin: auto;
+}
+
+

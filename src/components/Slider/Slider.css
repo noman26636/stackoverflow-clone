@@ -1,0 +1,23 @@
+.slider {
+  margin-top: 1em;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.slider > h1 {
+  font-size: 1.188rem;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  color: #6a737c;
+  margin-bottom: 2em;
+}
+
+.sliderCarousel {
+}
+
+.container {
+  display: flex;
+}
+.customCarousel {
+}

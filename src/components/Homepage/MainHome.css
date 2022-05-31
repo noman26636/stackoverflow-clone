@@ -1,0 +1,242 @@
+.leftUpperCube {
+  margin-top: -7px;
+  height: 60px;
+  width: 63px;
+  margin-left: 17px;
+  border-radius: 10px;
+  background-color: #0054a3;
+}
+
+.blackBackground {
+  position: relative;
+  margin-top: 40px;
+  
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60.625rem;
+  background: linear-gradient(180deg, #232629 0%, #525960 130%);
+}
+
+.bothCarts {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 70px 0px 0px 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pinkCart {
+  display: flex;
+  margin-right: 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 98%, 93% 87%, 0 87%);
+  /* width: 36%; */
+  height: 310px;
+  border-radius: 10px;
+  background-color: #fee3cd;
+}
+
+.pinkCart_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -50px !important;
+}
+
+.pinkCart_content > img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pinkCart_content > button {
+  text-align: center;
+  padding: 12px 38px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background-color: #f2740d;
+  color: white;
+  font-size: 0.9375rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+
+.pinkCart_content > h1 {
+  font-size: 1.188rem;
+  margin: 15px 20px;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #232629;
+  font-weight: 400;
+}
+
+.pinkCart_button {
+  margin: 8px auto 13px auto;
+}
+
+.searchCart {
+  font-size: 2.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f2740d;
+}
+
+.blueCart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 6% 87%, 0 98%);
+  /* z-index: 21; */
+  /* width: 36%; */
+  height: 310px;
+  border-radius: 10px;
+  background-color: #cdf9fe;
+}
+
+.blueCart_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -50px !important;
+}
+
+.blueCart_content > img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blueCart_content > button {
+  text-align: center;
+  padding: 12px 38px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background-color: #f2740d;
+  color: white;
+  font-size: 0.9375rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+
+.blueCart_content > h1 {
+  font-size: 1.188rem;
+  margin: 15px 20px;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #232629;
+  font-weight: 400;
+}
+
+.blueCart_button {
+  margin: 8px auto 13px auto;
+}
+
+.searchCart {
+  font-size: 2.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f2740d;
+}
+
+.desc_searchContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7225rem;
+  color: #525960;
+}
+
+.desc_searchContent > a {
+  margin-left: 3px;
+  color: black;
+}
+
+.desc_searchContent > a:hover {
+  color: #f2740d;
+}
+
+.lockCart {
+  font-size: 2.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0a95ff;
+}
+
+.getStarted {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  justify-content: center;
+}
+
+.getStarted_text {
+  text-align: center;
+  padding: 0px 12px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.8125rem;
+  color: #232629;
+}
+
+.border {
+  flex-basis: 30.33333%;
+  border: 0.2px solid #87ceeb;
+  border-width: thin;
+}
+
+.two_buttons {
+  display: flex;
+  align-items: center;
+  margin: 12px 10px;
+  justify-content: center;
+}
+
+.orgBtn1 {
+  display: flex;
+  margin-right: 8px;
+  padding: 12px;
+  background-color: #0a95ff;
+  border-radius: 5px;
+  font-size: 0.9375rem;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+
+.taskBtn2 {
+  margin: 0px 0px 0px 8px;
+}
+
+.orgButtons {
+  color: white;
+  margin-left: 5px;
+}
+
+.slideText {
+  margin-top: 100px;
+}
+.barWidth {
+  margin: 0px auto;
+  width: 5%;
+}
+
+.bar {
+  position: sticky;
+  margin-top: 50px;
+  border: solid #6a737c;
+  display: flex;
+  border-width: 4px;
+  border-radius: 7px;
+}

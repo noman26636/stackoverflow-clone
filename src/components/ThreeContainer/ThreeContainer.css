@@ -1,0 +1,169 @@
+
+
+.twoImagesContainer {
+  /* margin-top: 12em; */
+    z-index: 2;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 2em;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 2.125rem;
+}
+
+.subHeading {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.188rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+.twoImage {
+  margin-right: 3px;
+  /* padding-top: 10em; */
+  margin-top: 8em;
+  width: 40%;
+  height: 19rem;
+  border-radius: 5px;
+}
+
+.allItems {
+  margin-top: 15em;
+}
+
+.middleImage {
+  position: absolute;
+  width: 45%;
+  height: 23rem;
+  border-radius: 5px;
+  margin-left: 26em;
+  margin-top: -28em;
+  z-index: 880;
+}
+.egineer {
+  display: flex;
+}
+
+.teams {
+  position: relative;
+  z-index: 3;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  margin-top: -11em;
+  flex-direction: column;
+  width: 93%;
+  background: linear-gradient(
+    180deg,
+      #232629 0%,
+     #525960 130%
+  );
+  height: 150rem;
+  /* z-index: -1; */
+  border-radius: 7px;
+}
+
+.teamImage {
+  height: 40px;
+  width: 250px;
+  display: flex;
+  /* margin-top: 5rem; */
+}
+
+.teamContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: auto; */
+  margin-top: 15em;
+}
+
+.teamDesc {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  line-height: 35px;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.6875rem;
+  width: 65%;
+}
+
+.teamDesc > span {
+  color: #f2740d;
+}
+
+.teamDesc_button {
+  padding: 10px 30px;
+  border: 1px solid transparent;
+  background-color: #0a95ff;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+  font-size: 0.9375rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.teamDesc_button:hover {
+  background-color: #0074cc;
+  color: white;
+}
+
+.animatedContainers {
+  margin: 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animatedContainer {
+  padding: 20px 10px;
+  margin: 0px 10px;
+}
+
+.aos_Container {
+  color: #48a868;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_content {
+  margin: 5px 2px;
+}
+
+.container_content_header {
+  font-size: 1.3125rem;
+  margin-top: 20px;
+  font-family: "Roboto Slab", serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container_content_desc {
+  font-size: 1.063rem;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #9fa6ad;
+  padding: 0px 15px;
+}
+
+.animatedContainers {
+  margin-top: 30px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}

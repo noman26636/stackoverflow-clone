@@ -1,0 +1,37 @@
+.community{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    /* justify-content: space-around; */
+    margin: 0px 140px;
+
+}
+
+.communityContainers{
+    display: flex;
+    margin-top: 40px;
+}
+
+.communityContainer > h1{
+    color: white;
+    font-family: "Roboto Slab",serif;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    font-style: normal;
+    font-size: 1.3125rem;
+}
+
+.communityContainer{
+    padding: 10px 20px;
+}
+
+.communityContainer > h2{
+    font-size: 0.8975rem;
+    color: #9fa6ad;
+    line-height: 20px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
